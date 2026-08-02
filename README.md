@@ -32,7 +32,7 @@
   <a href="https://github.com/Codex00911">
     <img src="https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=F0F6FC" alt="GitHub"/>
   </a>
-  <a href="https://discord.com/users/codex_80450">
+  <a href="https://discord.com/users/1465035416116658467">
     <img src="https://img.shields.io/badge/Discord-0D1117?style=flat-square&logo=discord&logoColor=7C3AED" alt="Discord"/>
   </a>
   <a href="mailto:codex@codex00.qzz.io">
