@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="CODEX00911 - Software Engineer, Minecraft Infrastructure, Backend and Automation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#F7F9FC"/>
+      <stop offset="0.55" stop-color="#EAF1FB"/>
+      <stop offset="1"   stop-color="#F2EBFB"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#0969DA"/>
+      <stop offset="0.5" stop-color="#00A8CC"/>
+      <stop offset="1"   stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#0969DA" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00A8CC" stop-opacity="0.9"/>
+      <stop offset="1"   stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="0.82" cy="0.18" r="0.55">
+      <stop offset="0"   stop-color="#7C3AED" stop-opacity="0.16"/>
+      <stop offset="1"   stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.08" cy="0.92" r="0.6">
+      <stop offset="0"   stop-color="#00A8CC" stop-opacity="0.12"/>
+      <stop offset="1"   stop-color="#00A8CC" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#D0D7DE" stroke-opacity="0.6" stroke-width="1"/>
+    </pattern>
+
+    <g id="cube">
+      <path d="M0 0 L22 -11 L44 0 L22 11 Z" fill="currentColor" fill-opacity="0.9"/>
+      <path d="M44 0 L22 11 L22 33 L44 22 Z" fill="currentColor" fill-opacity="0.55"/>
+      <path d="M0 0 L22 11 L22 33 L0 22 Z" fill="currentColor" fill-opacity="0.3"/>
+    </g>
+
+    <style>
+      .floatA { animation: floatA 7s ease-in-out infinite; }
+      .floatB { animation: floatB 9s ease-in-out infinite; }
+      .particle { animation: rise 8s linear infinite; }
+      .dash { stroke-dasharray: 10 14; animation: dash 3s linear infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .cursor { animation: blink 1.1s step-end infinite; }
+      .role { animation: roleFade 12s infinite; }
+      .role1 { animation-delay: 0s; }
+      .role2 { animation-delay: 4s; }
+      .role3 { animation-delay: 8s; }
+
+      @keyframes floatA {
+        0%, 100% { transform: translateY(0); }
+        50%      { transform: translateY(-12px); }
+      }
+      @keyframes floatB {
+        0%, 100% { transform: translateY(0); }
+        50%      { transform: translateY(-18px); }
+      }
+      @keyframes rise {
+        0%   { transform: translateY(0); opacity: 0; }
+        12%  { opacity: 0.85; }
+        80%  { opacity: 0.7; }
+        100% { transform: translateY(-90px); opacity: 0; }
+      }
+      @keyframes dash { to { stroke-dashoffset: -120; } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes roleFade {
+        0%   { opacity: 0; }
+        6%   { opacity: 1; }
+        27%  { opacity: 1; }
+        33%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glowPurple)"/>
+  <rect width="1200" height="320" fill="url(#glowCyan)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- Circuit traces -->
+  <polyline points="820,252 900,252 900,212 980,212" fill="none" stroke="#C9D1D9" stroke-width="1.5"/>
+  <circle cx="980" cy="212" r="2.5" fill="#0969DA" opacity="0.7"/>
+  <polyline points="700,300 640,300 640,270" fill="none" stroke="#C9D1D9" stroke-width="1.5"/>
+  <circle cx="640" cy="270" r="2.5" fill="#7C3AED" opacity="0.7"/>
+
+  <!-- Animated signal line -->
+  <path class="dash" d="M64 296 L1136 296" fill="none" stroke="url(#lineGrad)" stroke-width="2"/>
+
+  <!-- Particles (Minecraft-style square dust) -->
+  <g transform="translate(612,252)"><rect class="particle" width="5" height="5" fill="#00A8CC" style="animation-delay:0.2s"/></g>
+  <g transform="translate(700,268)"><rect class="particle" width="4" height="4" fill="#7C3AED" style="animation-delay:1.6s"/></g>
+  <g transform="translate(776,244)"><rect class="particle" width="6" height="6" fill="#0969DA" style="animation-delay:3.1s"/></g>
+  <g transform="translate(660,262)"><rect class="particle" width="4" height="4" fill="#24292F" style="animation-delay:4.4s"/></g>
+  <g transform="translate(730,280)"><rect class="particle" width="5" height="5" fill="#00A8CC" style="animation-delay:5.7s"/></g>
+  <g transform="translate(830,264)"><rect class="particle" width="4" height="4" fill="#7C3AED" style="animation-delay:6.8s"/></g>
+  <g transform="translate(880,284)"><rect class="particle" width="5" height="5" fill="#0969DA" style="animation-delay:0.9s"/></g>
+  <g transform="translate(960,258)"><rect class="particle" width="4" height="4" fill="#00A8CC" style="animation-delay:2.3s"/></g>
+  <g transform="translate(1030,274)"><rect class="particle" width="5" height="5" fill="#7C3AED" style="animation-delay:3.9s"/></g>
+  <g transform="translate(1080,250)"><rect class="particle" width="4" height="4" fill="#24292F" style="animation-delay:5.1s"/></g>
+
+  <!-- Floating cubes -->
+  <g transform="translate(600,198)"><g class="floatA"><use href="#cube" color="#7C3AED"/></g></g>
+  <g transform="translate(672,238) scale(0.6)"><g class="floatB"><use href="#cube" color="#0969DA"/></g></g>
+  <g transform="translate(742,200) scale(0.45)"><g class="floatA"><use href="#cube" color="#00A8CC"/></g></g>
+  <g transform="translate(752,52) scale(0.5)"><g class="floatB"><use href="#cube" color="#0969DA"/></g></g>
+
+  <!-- Terminal label -->
+  <text x="64" y="76" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="14" fill="#0969DA">codex@server:~$</text>
+  <rect class="cursor" x="196" y="62" width="8" height="16" fill="#0969DA" opacity="0.9"/>
+
+  <!-- Title -->
+  <text x="64" y="136" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="56" font-weight="700" letter-spacing="4" fill="url(#titleGrad)">CODEX00911</text>
+
+  <!-- Rotating roles -->
+  <text class="role role1" x="64" y="172" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="20" fill="#0083A8">Software Engineer</text>
+  <text class="role role2" x="64" y="172" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="20" fill="#0083A8">Minecraft Infrastructure Developer</text>
+  <text class="role role3" x="64" y="172" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="20" fill="#0083A8">Backend · Automation · Open Source</text>
+
+  <!-- Tagline -->
+  <text x="64" y="202" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="15" fill="#57606A">Building scalable software, one commit at a time.</text>
+
+  <!-- Stack chips -->
+  <g font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="13" font-weight="600">
+    <rect x="64"  y="222" width="64"  height="30" rx="15" fill="#0969DA" fill-opacity="0.08" stroke="#0969DA" stroke-opacity="0.45"/>
+    <text x="96"  y="242" text-anchor="middle" fill="#0969DA">Java</text>
+
+    <rect x="144" y="222" width="88"  height="30" rx="15" fill="#00A8CC" fill-opacity="0.08" stroke="#00A8CC" stroke-opacity="0.45"/>
+    <text x="188" y="242" text-anchor="middle" fill="#0083A8">PaperMC</text>
+
+    <rect x="248" y="222" width="64"  height="30" rx="15" fill="#7C3AED" fill-opacity="0.1" stroke="#7C3AED" stroke-opacity="0.45"/>
+    <text x="280" y="242" text-anchor="middle" fill="#5B21B6">Rust</text>
+
+    <rect x="328" y="222" width="80"  height="30" rx="15" fill="#0969DA" fill-opacity="0.08" stroke="#0969DA" stroke-opacity="0.45"/>
+    <text x="368" y="242" text-anchor="middle" fill="#0969DA">Python</text>
+
+    <rect x="424" y="222" width="80"  height="30" rx="15" fill="#00A8CC" fill-opacity="0.08" stroke="#00A8CC" stroke-opacity="0.45"/>
+    <text x="464" y="242" text-anchor="middle" fill="#0083A8">Docker</text>
+
+    <rect x="520" y="222" width="56"  height="30" rx="15" fill="#7C3AED" fill-opacity="0.1" stroke="#7C3AED" stroke-opacity="0.45"/>
+    <text x="548" y="242" text-anchor="middle" fill="#5B21B6">n8n</text>
+  </g>
+
+  <!-- Glass terminal card -->
+  <g>
+    <rect x="812" y="54" width="324" height="186" rx="14" fill="#FFFFFF" fill-opacity="0.8" stroke="#0969DA" stroke-opacity="0.3"/>
+    <circle cx="836" cy="76" r="5" fill="#FF5F57" opacity="0.9"/>
+    <circle cx="856" cy="76" r="5" fill="#FEBC2E" opacity="0.9"/>
+    <circle cx="876" cy="76" r="5" fill="#28C840" opacity="0.9"/>
+    <text x="900" y="81" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#57606A">levelgate --status</text>
+
+    <text x="836" y="112" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#0969DA">$ ./levelgate status</text>
+    <text x="836" y="136" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#1A7F37">&#10003; core online · paper 1.21.4</text>
+    <text x="836" y="160" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#5B21B6">&#8594; building: lumina-core</text>
+    <text x="836" y="184" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#57606A">uptime 99.9% · 0 errors</text>
+    <text x="1024" y="184" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#0083A8">&#9633;</text>
+    <rect class="cursor" x="836" y="204" width="7" height="13" fill="#0083A8" opacity="0.9"/>
+  </g>
+</svg>

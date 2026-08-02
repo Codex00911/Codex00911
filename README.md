@@ -8,26 +8,31 @@
     accent      #7C3AED    glow        #00E5FF
     text        #F0F6FC    muted       #8B949E
 
-  ✏️  TODO — replace the last contact placeholder below:
-     · Discord invite  ->  YOUR_DISCORD_INVITE
+  ✨ Fully wired — hero, widgets, snake and contact links are live.
   ════════════════════════════════════════════════════════════════════
 -->
 
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="CODEX00911 — Software Engineer · Minecraft Infrastructure · Backend · Automation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Codex00911/Codex00911/main/assets/hero.svg"/>
+    <img src="https://raw.githubusercontent.com/Codex00911/Codex00911/main/assets/hero-light.svg" width="100%" alt="CODEX00911 — Software Engineer · Minecraft Infrastructure · Backend · Automation"/>
+  </picture>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&fontWeight=500&size=21&duration=3400&pause=900&color=58A6FF&center=true&vCenter=true&width=640&height=40&lines=Java+Developer;Minecraft+Plugin+Developer;Backend+Engineer;Rust+%26+Python;n8n+Automation+Builder;Open+Source+Contributor" alt="Typing animation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&fontWeight=500&size=21&duration=3400&pause=900&color=58A6FF&center=true&vCenter=true&width=640&height=40&lines=Java+Developer;Minecraft+Plugin+Developer;Backend+Engineer;Rust+%26+Python;n8n+Automation+Builder;Open+Source+Contributor"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&fontWeight=500&size=21&duration=3400&pause=900&color=0969DA&center=true&vCenter=true&width=640&height=40&lines=Java+Developer;Minecraft+Plugin+Developer;Backend+Engineer;Rust+%26+Python;n8n+Automation+Builder;Open+Source+Contributor" alt="Typing animation"/>
+  </picture>
 </div>
 
 <div align="center">
   <a href="https://github.com/Codex00911">
     <img src="https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=F0F6FC" alt="GitHub"/>
   </a>
-  <a href="https://discord.gg/YOUR_DISCORD_INVITE">
+  <a href="https://discord.com/users/codex_80450">
     <img src="https://img.shields.io/badge/Discord-0D1117?style=flat-square&logo=discord&logoColor=7C3AED" alt="Discord"/>
   </a>
   <a href="mailto:codex@codex00.qzz.io">
@@ -184,6 +189,9 @@ public final class Codex {
       <img src="https://img.shields.io/badge/Java%2021-58A6FF?style=flat-square" alt="Java 21"/>
       <img src="https://img.shields.io/badge/PaperMC%201.21.4-00E5FF?style=flat-square" alt="PaperMC 1.21.4"/>
       <img src="https://img.shields.io/badge/license-MIT-7C3AED?style=flat-square" alt="MIT"/>
+      <br/>
+      <img src="https://img.shields.io/github/v/release/Codex00911/LevelGate?style=flat-square&color=00E5FF" alt="Latest release"/>
+      <img src="https://img.shields.io/github/downloads/Codex00911/LevelGate/total?style=flat-square&color=58A6FF" alt="Downloads"/>
       <br/><br/>
       A production-ready Paper plugin: players unlock commands by leveling up
       through <b>playtime, mob kills, mining, crafting &amp; voting</b>.
@@ -276,6 +284,17 @@ Private infrastructure powering production systems. No fake links — just work 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Codex00911&hide_border=true&bg_color=0D1117&color=58A6FF&line=7C3AED&point=00E5FF&area=true&area_color=16304f&radius=10" alt="Contribution graph" width="100%"/>
 </div>
 
+<details>
+  <summary><b>🏆 GitHub Trophies</b></summary>
+  <br/>
+  <div align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Codex00911&theme=onedark&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8&title-color=58A6FF&text-color=F0F6FC&icon-color=00E5FF&border-color=30363D"/>
+      <img src="https://github-profile-trophy.vercel.app/?username=Codex00911&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8&title-color=24292F&text-color=57606A&icon-color=0969DA&border-color=D0D7DE" alt="GitHub trophies"/>
+    </picture>
+  </div>
+</details>
+
 <div align="center">
   <img src="assets/divider.svg" alt="" width="70%"/>
 </div>
@@ -301,9 +320,11 @@ Private infrastructure powering production systems. No fake links — just work 
 ## <div align="center">🐍 Contribution</div>
 
 <div align="center">
-  <!-- The snake appears after the "Generate Contribution Snake" action runs
-       once (manual run: Actions → Generate Contribution Snake → Run workflow). -->
-  <img src="https://raw.githubusercontent.com/Codex00911/Codex00911/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
+  <!-- Contribution snake — regenerated daily by the "Generate Contribution Snake" action. -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Codex00911/Codex00911/output/github-contribution-grid-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/Codex00911/Codex00911/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%"/>
+  </picture>
 </div>
 
 <br/>
