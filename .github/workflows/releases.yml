@@ -1,0 +1,33 @@
+name: Update Latest Releases
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Refresh releases section
+        run: python3 .github/scripts/update_releases.py
+
+      - name: Commit and push if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: refresh latest releases"
+            git push || { git pull --rebase origin main && git push; }
+            echo "README updated."
+          else
+            echo "No release changes — README already up to date."
+          fi

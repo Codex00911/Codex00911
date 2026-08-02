@@ -239,6 +239,24 @@ public final class Codex {
   <img src="assets/divider.svg" alt="" width="70%"/>
 </div>
 
+## <div align="center">📦 Latest Releases</div>
+
+<div align="center">
+  <sub>Auto-updated daily from GitHub Releases.</sub>
+</div>
+
+<!-- RELEASES:START -->
+
+| Project | Version | Notes |
+| :--- | :--- | :--- |
+| [LevelGate](https://github.com/Codex00911/LevelGate/releases/tag/v1.3.0) | `v1.3.0` | Major update adding Discord webhooks, clickable holograms, admin GUI, and a quest/milestone system. |
+
+<!-- RELEASES:END -->
+
+<div align="center">
+  <img src="assets/divider.svg" alt="" width="70%"/>
+</div>
+
 ## <div align="center">🔒 Behind the Scenes</div>
 
 Private infrastructure powering production systems. No fake links — just work in progress.
