@@ -103,7 +103,7 @@
   <g transform="translate(1080,250)"><rect class="particle" width="4" height="4" fill="#F0F6FC" style="animation-delay:5.1s"/></g>
 
   <!-- Floating cubes -->
-  <g transform="translate(600,198)"><g class="floatA"><use href="#cube" color="#7C3AED"/></g></g>
+  <g transform="translate(596,178)"><g class="floatA"><use href="#cube" color="#7C3AED"/></g></g>
   <g transform="translate(672,238) scale(0.6)"><g class="floatB"><use href="#cube" color="#58A6FF"/></g></g>
   <g transform="translate(742,200) scale(0.45)"><g class="floatA"><use href="#cube" color="#00E5FF"/></g></g>
   <g transform="translate(752,52) scale(0.5)"><g class="floatB"><use href="#cube" color="#58A6FF"/></g></g>
@@ -142,6 +142,9 @@
 
     <rect x="520" y="222" width="56"  height="30" rx="15" fill="#7C3AED" fill-opacity="0.14" stroke="#7C3AED" stroke-opacity="0.5"/>
     <text x="548" y="242" text-anchor="middle" fill="#C4B5FD">n8n</text>
+
+    <rect x="592" y="222" width="56"  height="30" rx="15" fill="#58A6FF" fill-opacity="0.12" stroke="#58A6FF" stroke-opacity="0.5"/>
+    <text x="620" y="242" text-anchor="middle" fill="#58A6FF">Bots</text>
   </g>
 
   <!-- Glass terminal card -->
@@ -154,9 +157,10 @@
 
     <text x="836" y="112" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#58A6FF">$ ./levelgate status</text>
     <text x="836" y="136" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#3FB950">&#10003; core online · paper 1.21.4</text>
-    <text x="836" y="160" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#7C3AED">&#8594; building: lumina-core</text>
-    <text x="836" y="184" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#8B949E">uptime 99.9% · 0 errors</text>
-    <text x="1024" y="184" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#00E5FF">&#9633;</text>
-    <rect class="cursor" x="836" y="204" width="7" height="13" fill="#00E5FF" opacity="0.9"/>
+    <text x="836" y="160" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#00E5FF">&#8594; bots: minecraft · telegram</text>
+    <text x="836" y="184" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#7C3AED">&#8594; building: lumina-core</text>
+    <text x="836" y="208" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#8B949E">uptime 99.9% · 0 errors</text>
+    <text x="1024" y="208" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12" fill="#00E5FF">&#9633;</text>
+    <rect class="cursor" x="836" y="226" width="7" height="13" fill="#00E5FF" opacity="0.9"/>
   </g>
 </svg>

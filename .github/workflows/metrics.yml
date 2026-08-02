@@ -1,0 +1,64 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    # Weekly on Monday 12:00 UTC
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📊 GitHub stats
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Codex00911
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          filename: metrics.classic.svg
+          output_action: commit
+          output_condition: data_changed
+
+      - name: 💻 Top languages
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Codex00911
+          base: ""
+          plugin_languages: yes
+          plugin_languages_categories: programming
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_skipped: Codex00911
+          filename: metrics.languages.svg
+          output_action: commit
+          output_condition: data_changed
+
+      - name: 🗓️ Contribution calendar
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Codex00911
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          filename: metrics.isocalendar.svg
+          output_action: commit
+          output_condition: data_changed
+
+      - name: 🏆 Achievements
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Codex00911
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          filename: metrics.achievements.svg
+          output_action: commit
+          output_condition: data_changed
