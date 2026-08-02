@@ -88,11 +88,11 @@ public final class Codex {
       <code>PlaceholderAPI</code> · <code>Custom Mechanics</code>
     </td>
     <td align="center">
-      <b>🌐 Web Development</b>
+      <b>🎮 Minecraft Bots</b>
       <br/><br/>
-      <code>Modern UI</code> · <code>Dashboards</code> · <code>REST APIs</code>
+      <code>Custom Bots</code> · <code>In-Game Automation</code>
       <br/>
-      <code>Auth</code> · <code>Responsive Design</code>
+      <code>Scripting</code> · <code>AFK &amp; Utility Bots</code>
     </td>
     <td align="center">
       <b>🤖 Discord Bots</b>
@@ -101,8 +101,22 @@ public final class Codex {
       <br/>
       <code>Logging</code> · <code>Verification</code>
     </td>
+    <td align="center">
+      <b>✈️ Telegram Bots</b>
+      <br/><br/>
+      <code>python-telegram-bot</code> · <code>Inline Queries</code>
+      <br/>
+      <code>Webhooks</code> · <code>Scheduled Tasks</code>
+    </td>
   </tr>
   <tr>
+    <td align="center">
+      <b>🌐 Web Development</b>
+      <br/><br/>
+      <code>Modern UI</code> · <code>Dashboards</code> · <code>REST APIs</code>
+      <br/>
+      <code>Auth</code> · <code>Responsive Design</code>
+    </td>
     <td align="center">
       <b>⚙️ Backend</b>
       <br/><br/>
@@ -269,15 +283,15 @@ Private infrastructure powering production systems. No fake links — just work 
 ## <div align="center">📈 GitHub Analytics</div>
 
 <!--
-  Widgets are served by third-party services (github-readme-stats, streak-stats,
-  activity-graph). If the classic github-readme-stats endpoint ever goes down,
-  swap in the maintained fork: https://github.com/cihat/forked-github-readme-stats
-  (same query parameters).
+  Widgets are served by third-party services. Stats + top languages use the
+  maintained fork github-stats-extended (the original github-readme-stats
+  deployment is currently paused); streak + activity-graph run on their own
+  live instances; the trophy card uses a community mirror.
 -->
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Codex00911&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=00E5FF&text_color=F0F6FC&ring_color=7C3AED" alt="GitHub stats" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Codex00911&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=F0F6FC&langs_count=8" alt="Top languages" width="49%"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=Codex00911&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=00E5FF&text_color=F0F6FC&ring_color=7C3AED" alt="GitHub stats" width="49%"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Codex00911&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=F0F6FC&langs_count=8" alt="Top languages" width="49%"/>
   <br/><br/>
   <img src="https://streak-stats.demolab.com?user=Codex00911&hide_border=true&background=0D1117&ring=7C3AED&fire=00E5FF&currStreakLabel=58A6FF&sideLabels=8B5CF6&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E" alt="GitHub streak" width="80%"/>
   <br/><br/>
@@ -289,8 +303,8 @@ Private infrastructure powering production systems. No fake links — just work 
   <br/>
   <div align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Codex00911&theme=onedark&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8&title-color=58A6FF&text-color=F0F6FC&icon-color=00E5FF&border-color=30363D"/>
-      <img src="https://github-profile-trophy.vercel.app/?username=Codex00911&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8&title-color=24292F&text-color=57606A&icon-color=0969DA&border-color=D0D7DE" alt="GitHub trophies"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-orcin-eta.vercel.app/?username=Codex00911&theme=onedark&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8&title-color=58A6FF&text-color=F0F6FC&icon-color=00E5FF&border-color=30363D"/>
+      <img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=Codex00911&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8&title-color=24292F&text-color=57606A&icon-color=0969DA&border-color=D0D7DE" alt="GitHub trophies"/>
     </picture>
   </div>
 </details>
@@ -338,5 +352,5 @@ Private infrastructure powering production systems. No fake links — just work 
   <br/>
   Let's build something amazing. ❤️
   <br/><br/>
-  <img src="https://visitcount.itsvg.in/api?id=Codex00911&label=Profile%20Views&color=3&icon=0&pretty=true" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Codex00911&style=flat-square&color=58A6FF&label=Profile+Views" alt="Profile views"/>
 </div>
